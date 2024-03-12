@@ -1,7 +1,8 @@
 import React from "react";
+import { Text } from "react-native";
 
 const DishRow = () => {
-  return <div>DishRow</div>;
+  return <Text>DishRow</Text>;
 };
 
 export default DishRow;
