@@ -98,7 +98,7 @@ const RestaurantScreen = () => {
             <TouchableOpacity className='flex-row items-center p-4 space-x-2 border-gray-300 border-y'>
               <QuestionMarkCircleIcon color='gray' size={20} opacity={0.6} />
               <Text className='flex-1 pl-2 font-bold text-md'>
-                음식 알레르기가 있난요?
+                음식 알레르기가 있나요?
               </Text>
               <ChevronRightIcon color='#00CCBB' />
             </TouchableOpacity>
@@ -110,7 +110,7 @@ const RestaurantScreen = () => {
                 key={dish._id}
                 id={dish._id}
                 name={dish.name}
-                description={dish.shortDescription}
+                description={dish.short_description}
                 price={dish.price}
                 image={dish.image}
               />
